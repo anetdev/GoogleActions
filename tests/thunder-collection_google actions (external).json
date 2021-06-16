@@ -1,0 +1,78 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "google actions (external)",
+  "dateExported": "2021-05-26T22:39:02.979Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "containerId": "",
+      "sortNum": 10000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "fb8978f5-d878-41d9-827d-6688debc804b",
+      "name": "query",
+      "url": "https://smart.hashdebug.com/fulfillment",
+      "method": "POST",
+      "modified": "2021-05-26T20:36:59.965Z",
+      "created": "2021-05-23T13:50:12.190Z",
+      "_id": "6f8978c0-8c5a-4081-ae32-7ee1d5d27eed",
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"requestId\": \"6894439706274654514\",\n  \"inputs\": [\n    {\n      \"intent\": \"action.devices.QUERY\",\n      \"payload\": {\n        \"devices\": [\n          {\n            \"id\": \"BedRoom2Fan\"\n          }\n        ]\n      }\n    }\n  ]\n}"
+      },
+      "tests": []
+    },
+    {
+      "containerId": "",
+      "sortNum": 15000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "fb8978f5-d878-41d9-827d-6688debc804b",
+      "name": "execute",
+      "url": "https://smart.hashdebug.com/fulfillment",
+      "method": "POST",
+      "modified": "2021-05-26T21:11:54.913Z",
+      "created": "2021-05-26T21:11:54.913Z",
+      "_id": "e6439e3c-b4a4-4925-b28e-61592fa80a08",
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"requestId\": \"6894439706274654516\",\n  \"inputs\": [\n    {\n      \"intent\": \"action.devices.EXECUTE\",\n      \"payload\": {\n        \"commands\": [\n          {\n            \"devices\": [\n              {\n                \"id\": \"1\"\n              }\n            ],\n            \"execution\": [\n              {\n                \"command\": \"action.devices.commands.OnOff\",\n                \"params\": {\n                  \"on\": true\n                }\n              }\n            ]\n          }\n        ]\n      }\n    }\n  ]\n}"
+      },
+      "tests": []
+    },
+    {
+      "containerId": "",
+      "sortNum": 20000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "fb8978f5-d878-41d9-827d-6688debc804b",
+      "name": "sync",
+      "url": "https://smart.hashdebug.com/fulfillment",
+      "method": "POST",
+      "modified": "2021-05-26T22:36:46.983Z",
+      "created": "2021-05-24T10:53:47.205Z",
+      "_id": "8a7b7a3b-75fc-4274-a900-6ed4ab70476b",
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"requestId\": \"6894439706274654512\",\n  \"inputs\": [\n    {\n      \"intent\": \"action.devices.SYNC\"\n    }\n  ]\n}"
+      },
+      "tests": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mqttrelay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "actions-on-google": "^2.14.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "morgan": "^1.10.0",
+    "mqtt": "^4.2.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0"
+  },
+  "scripts": {
+    "dev": "nodemon --legacy-watch src/index.js",
+    "production": "node src/index.js"
+  },
+  "author": "aNetDev",
+  "license": "ISC",
+  "description": "google actions intent handler to relay mqtt messages to IOT devices"
+}

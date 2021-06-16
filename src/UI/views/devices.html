@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+      }
+
+      .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+      }
+    </style>
+    <script src="../script/devices.js"></script>
+  </head>
+  <body>
+    <div>
+      <input
+        type="file"
+        id="uploadfile"
+        multiple="multiple"
+        accept=".json"
+        onchange="UI.devices.displayJSON(this.files[0])"
+      />
+      <button
+        id="upload-button"
+        onclick="UI.devices.uploadFile(uploadfile.files[0]);uploadfile.value='';"
+      >
+        Upload devices config
+      </button>
+    </div>
+    <div class="flex-container">
+      <div>
+        <label>JSON on Server</label>
+        <div id="onServer"></div>
+      </div>
+      <div>
+        <label>JSON on Local</label>
+        <div id="toUpload"></div>
+      </div>
+    </div>
+  </body>
+  <script src="libs/json-viewer/json-viewer.js"></script>
+  <link rel="stylesheet" href="libs/json-viewer/json-viewer.css" />
+  <script>
+    UI.devices.init();
+  </script>
+</html>

@@ -1,0 +1,69 @@
+[  
+  {
+    "id": "LivingRoomLight1",
+    "type": "action.devices.types.SWITCH",
+    "traits": ["action.devices.traits.OnOff"],
+    "name": {
+      "name": "Not Used"
+    },
+    "willReportState": true,
+    "deviceInfo": {
+      "manufacturer": "Esp Relay",
+      "model": "esprelayV4",
+      "hwVersion": "4",
+      "swVersion": "9.4"
+    }
+  },
+  {
+    "id": "1066060370039f605876",
+    "type": "action.devices.types.SWITCH",
+    "traits": ["action.devices.traits.OnOff"],
+    "name": {
+      "name": "Smart Plug"
+    },
+    "willReportState": true,
+    "deviceInfo": {
+      "manufacturer": "tuya",
+      "model": "gosund"
+    }
+  },
+  {
+    "id": "10660603c4dd57219bc5",
+    "type": "action.devices.types.SWITCH",
+    "traits": ["action.devices.traits.OnOff"],
+    "name": {
+      "name": "FAN"
+    },
+    "willReportState": true,
+    "deviceInfo": {
+      "manufacturer": "tuya",
+      "model": "gosund"
+    }
+  },
+  {
+    "id": "1066060370039f5f50de",
+    "type": "action.devices.types.SWITCH",
+    "traits": ["action.devices.traits.OnOff"],
+    "name": {
+      "name": "Light"
+    },
+    "willReportState": true,
+    "deviceInfo": {
+      "manufacturer": "tuya",
+      "model": "gosund"
+    }
+  },
+  {
+    "id": "10660603c4dd573a4d1e",
+    "type": "action.devices.types.SWITCH",
+    "traits": ["action.devices.traits.OnOff"],
+    "name": {
+      "name": "Smart Plug"
+    },
+    "willReportState": true,
+    "deviceInfo": {
+      "manufacturer": "tuya",
+      "model": "gosund"
+    }
+  }
+]
