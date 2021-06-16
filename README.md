@@ -74,8 +74,11 @@ It is now time to expose our url to the internet so that google can access the u
 Next step is provide the urls in the google actions console. Lets say the domain we set up is google.myawesomedomain.com, the urls would look like this
 
 Fulfillment url 🠊 https://google.myawesomedomain.com/fulfillment
+
 Authorization url 🠊 https://google.myawesomedomain.com/auth/authoriz
+
 Token url 🠊 https://google.myawesomedomain.com/auth/token
+
 
 Fulfillment url
 ![image](https://blog.hashdebug.com/content/images/size/w1000/2021/06/image-7.png)
